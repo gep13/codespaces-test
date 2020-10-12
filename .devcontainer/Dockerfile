@@ -1,1 +1,5 @@
-FROM cakebuild/cake:v0.34.1-2.1-sdk
+FROM mcr.microsoft.com/oryx/build:vso-20200706.2
+
+RUN dotnet --info \
+	&& dotnet tool install Cake.Tool --tool-path c:\cake \
+    && cake --info
