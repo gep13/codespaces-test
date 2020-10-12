@@ -1,0 +1,6 @@
+{
+  "name": "Cake (Default)",
+	"build": {
+	  "dockerfile": "Dockerfile"
+	}
+}
