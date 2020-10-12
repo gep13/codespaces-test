@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/oryx/build:vso-20200706.2
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
 RUN dotnet --info \
 	&& dotnet tool install Cake.Tool --global
